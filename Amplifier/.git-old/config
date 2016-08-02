@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = false
+[branch "master"]
+[remote "Amplifier_on_BitBucket_"]
+	url = https://kmisiunas@bitbucket.org/kmisiunas/amplifier_axopatch_200b.git
+	fetch = +refs/heads/*:refs/remotes/Amplifier_on_BitBucket_/*
+[branch "master"]
+	remote = Amplifier_on_BitBucket_
+	merge = refs/heads/master
